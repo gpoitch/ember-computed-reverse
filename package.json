@@ -1,0 +1,23 @@
+{
+  "name": "ember-computed-reverse",
+  "version": "0.1.0",
+  "description": "A computed property macro for ember.js that returns a reversed array without allocating a new array on each replace action",
+  "author": "Garth Poitras <garth22@gmail.com> (http://garthpoitras.com/)",
+  "license": "MIT",
+  "repository": "https://github.com/gdub22/ember-computed-reverse.git",
+  "keywords": [
+    "ember",
+    "computed property"
+  ],
+  "main": "ember-computed-reverse",
+  "scripts": {
+    "test": "gulp ci"
+  },
+  "devDependencies": {
+    "gulp": "~3.5.5",
+    "gulp-qunit": "~0.2.1",
+    "gulp-jshint": "~1.5.0",
+    "gulp-bump": "~0.1.6",
+    "gulp-git": "~0.3.5"
+  }
+}

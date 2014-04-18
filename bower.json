@@ -1,0 +1,23 @@
+{
+  "name": "ember-computed-reverse",
+  "main": "ember-computed-reverse.js",
+  "version": "0.1.0",
+  "description": "A computed property macro for ember.js that returns a reversed array without allocating a new array on each replace action",
+  "authors": [
+    "gdub22 <garth22@gmail.com>"
+  ],
+  "keywords": [
+    "ember",
+    "computed property"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "README.md",
+    "package.json",
+    "gulpfile.js",
+    "tests"
+  ]
+}
