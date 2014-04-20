@@ -42,7 +42,7 @@ gulp.task('tag', function () {
     .pipe(gulp.dest('./'));
 });
 
-gulp.task('npm', ['tag'], function (done) {
+gulp.task('npm', function (done) {
   require('child_process').spawn('npm', ['publish'], { stdio: 'inherit' })
     .on('close', done);
 });
